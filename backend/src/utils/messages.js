@@ -15,6 +15,8 @@ const messages = {
   invalidPassword: "Mật khẩu không hợp lệ",
   loginUserWrongCredentials: "Email hoặc mật khẩu không đúng",
   loginSuccessful: "Đăng nhập thành công",
+  emptyRoomName: "Nhập tên phòng",
+  invalidRoomName: "Tên phòng không hợp lệ",
 };
 
 export default messages;

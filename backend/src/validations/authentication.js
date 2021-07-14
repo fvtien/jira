@@ -98,4 +98,4 @@ const login = data => {
   });
 };
 
-export default { signUp, login };
+export default { createErrorMessages, signUp, login };
