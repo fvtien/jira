@@ -17,6 +17,10 @@ const messages = {
   loginSuccessful: "Đăng nhập thành công",
   emptyRoomName: "Nhập tên phòng",
   invalidRoomName: "Tên phòng không hợp lệ",
+  emptyPriorityId: "Nhập mức ưu tiên",
+  invalidPriorityId: "Mức ưu tiên không hợp lệ",
+  emptyPriorityName: "Nhập tên mức ưu tiền",
+  invalidPriorityName: "Tên mức ưu tiền không hợp lệ",
 };
 
 export default messages;
