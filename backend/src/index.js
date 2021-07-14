@@ -3,8 +3,10 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import morgan from "morgan";
 import dotenv from "dotenv";
+import connectDB from "./config/db.js";
 
 dotenv.config();
+connectDB();
 
 const app = express();
 const port = process.env.PORT;
