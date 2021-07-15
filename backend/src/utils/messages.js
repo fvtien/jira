@@ -21,6 +21,8 @@ const messages = {
   invalidPriorityId: "Mức ưu tiên không hợp lệ",
   emptyPriorityName: "Nhập tên mức ưu tiền",
   invalidPriorityName: "Tên mức ưu tiền không hợp lệ",
+  emptyProjectName: "Nhập tên project",
+  invalidProjectName: "Tên project không hợp lệ",
 };
 
 export default messages;
