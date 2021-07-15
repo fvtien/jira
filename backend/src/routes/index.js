@@ -4,6 +4,7 @@ import roomRoute from "./room.route.js";
 import priorityRoute from "./priority.route.js";
 import projectRoute from "./project.route.js";
 import messageRoute from "./message.route.js";
+import kanbanTypeRoute from "./kanban-type.route.js";
 
 const routes = express.Router();
 
@@ -13,6 +14,7 @@ routes.use("/api/v1", [
   priorityRoute,
   projectRoute,
   messageRoute,
+  kanbanTypeRoute,
 ]);
 
 export default routes;
