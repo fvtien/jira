@@ -9,7 +9,6 @@ const {
   createdSuccessful,
   updatedSuccessful,
   deletedSuccessful,
-  loginSuccessful,
   dataList,
   dataNotFound,
 } = messages;

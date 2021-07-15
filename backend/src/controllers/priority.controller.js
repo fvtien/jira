@@ -26,13 +26,12 @@ export default class PriorityController {
   };
 
   static updatePriority = async (req, res) => {
-    const id = { _id: req.params.id };
-    const priority = req.body;
-    await Priority.updateOne(id, priority);
-
-    return successResponse(res, success, updatedSuccessful);
-
     try {
+      const id = { _id: req.params.id };
+      const priority = req.body;
+      await Priority.updateOne(id, priority);
+
+      return successResponse(res, success, updatedSuccessful);
     } catch (error) {
       return errorResponse(res, serverError, error);
     }

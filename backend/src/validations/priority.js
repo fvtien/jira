@@ -7,9 +7,7 @@ const { createErrorMessages } = authentication;
 const createPriorityForm = data => {
   const schema = Joi.object({
     id: Joi.string()
-      .regex(
-        /^[0-9a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂẾưăạảấầẩẫậắằẳẵặẹẻẽềềểếỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s\W|_]+$/
-      )
+      .regex(/^([a-zA-Z])+$/)
       .trim()
       .required()
       .messages(
