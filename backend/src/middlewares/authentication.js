@@ -56,9 +56,9 @@ const checkLogin = async (req, res, next) => {
     return errorResponse(res, notFound, loginUserWrongCredentials);
   }
 
-  req.userData = await User.findOne({ email: req.body.email }).select(
-    "-password"
-  );
+  const { _doc } = await User.findOne({ email: email }).select("-password");
+
+  req.userData = _doc;
 
   return next();
 };
