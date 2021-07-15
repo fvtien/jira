@@ -73,10 +73,7 @@ export default class UserController {
   static loginUser = async (req, res) => {
     try {
       const userData = req.userData;
-      const tokenData = {
-        _id: userData.id,
-        ...userData,
-      };
+      const tokenData = { ...userData };
       const token = await generateToken(tokenData);
 
       return successResponse(res, success, loginSuccessful, token, userData);
