@@ -1,0 +1,28 @@
+const messages = {
+  createdSuccessful: "Thêm mới thành công",
+  updatedSuccessful: "Cập nhật thành công",
+  deletedSuccessful: "Xóa thành công",
+  dataList: "Danh sách dữ liệu",
+  dataNotFound: "Không có dữ liệu",
+  emptyFirstName: "Nhập tên",
+  invalidFirstName: "Tên không hợp lệ",
+  emptyLastName: "Nhâp họ",
+  invalidLastName: "Họ không hợp lệ",
+  emptyEmail: "Nhập email",
+  invalidEmail: "Email không hợp lệ",
+  conflictEmail: "Email đã tồn tại",
+  emptyPassword: "Nhập mật khẩu",
+  invalidPassword: "Mật khẩu không hợp lệ",
+  loginUserWrongCredentials: "Email hoặc mật khẩu không đúng",
+  loginSuccessful: "Đăng nhập thành công",
+  emptyRoomName: "Nhập tên phòng",
+  invalidRoomName: "Tên phòng không hợp lệ",
+  emptyPriorityId: "Nhập mức ưu tiên",
+  invalidPriorityId: "Mức ưu tiên không hợp lệ",
+  emptyPriorityName: "Nhập tên mức ưu tiền",
+  invalidPriorityName: "Tên mức ưu tiền không hợp lệ",
+  emptyProjectName: "Nhập tên project",
+  invalidProjectName: "Tên project không hợp lệ",
+};
+
+export default messages;
