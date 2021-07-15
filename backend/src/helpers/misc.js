@@ -32,7 +32,7 @@ const generateToken = async data => {
     expiresIn: "30d",
   });
 
-  return token;
+  return `Bearer ${token}`;
 };
 
 const generateHashedPassword = async password => {
